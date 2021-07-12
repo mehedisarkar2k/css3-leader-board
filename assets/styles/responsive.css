@@ -1,0 +1,41 @@
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .top-players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .top-blogs .blog .blog-details .blog-title h4 {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .top-players .player {
+    flex-direction: column;
+    border-radius: 2rem;
+  }
+
+  .top-players .player .player-name {
+    margin-top: 0.5rem;
+  }
+
+  .top-blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
