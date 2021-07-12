@@ -17,6 +17,16 @@
   .top-blogs .blog .blog-details .blog-title h4 {
     font-size: 1.8rem;
   }
+
+  .latest-courses {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 3rem;
+  }
+
+  .course {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -32,10 +42,18 @@
   .top-blogs {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .course {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   .top-players {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .course {
+    width: 100%;
   }
 }
