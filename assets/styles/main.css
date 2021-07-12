@@ -63,7 +63,6 @@ hr {
 
 .card {
   padding: 1rem;
-  /* box-shadow: 0 0 8px #9f9f9f; */
   background: #fff;
   filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
 }
@@ -75,6 +74,11 @@ hr {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+}
+
+.top-players .card {
+  box-shadow: 0 0 8px #9f9f9f;
+  filter: none;
 }
 
 .top-players .player {
